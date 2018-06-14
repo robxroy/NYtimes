@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>New York Times</title>
+
+<body>
+
+    <header>
+            <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4">New York Times Search</h1>
+                    </div>
+                  </div>
+
+
+    </header>
+ <div class="container">
+
+
+<div id="search-parameters">
+    <p>Search Parameters</p>
+<form>
+
+        <div class="form-group">
+                <label for="exampleInputEmail1">Search Term:</label>
+                <input type="text" class="form-control" id="search-term" placeholder="Nuclear Armageddon or Nobel Peace Prize">
+              </div>
+
+        <div class="form-group">
+          <label for="record-number">Number of Articles to be Retrieved</label>
+          <select class="form-control">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+              </select>
+        </div>
+
+
+        <div class="form-group">
+                <label for="start-year">Start Year (Optional):</label>
+                <input type="text" class="form-control" id="start-year" placeholder="2000">
+              </div>
+
+              <div class="form-group">
+                    <label for="end-year">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="end-year" placeholder="2016">
+                  </div>
+
+                  <a class="btn btn-primary btn-lg" href="#" role="button" id="search">Search</a>
+                  <a class="btn btn-primary btn-lg" href="#" role="button" id="clear">Clear</a>
+
+
+        
+      </form></div>
+
+
+      <div id="top-articles"></div>
+
+
+      
+
+ </div>
+</body>
+</html>
