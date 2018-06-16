@@ -17,7 +17,7 @@
     <header>
             <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                      <h1 class="display-4">New York Times Search</h1>
+                      <h1 class="display-4">📰 New York Times Search</h1>
                     </div>
                   </div>
 
@@ -25,9 +25,10 @@
     </header>
  <div class="container">
 
+        <div class="card">
+                <h5 class="card-header">Search Parameters</h5>
+                <div class="card-body">
 
-<div id="search-parameters">
-    <p>Search Parameters</p>
 <form>
 
         <div class="form-group">
@@ -37,7 +38,7 @@
 
         <div class="form-group">
           <label for="record-number">Number of Articles to be Retrieved</label>
-          <select class="form-control">
+          <select id="number" class="form-control">
                 <option>1</option>
                 <option>5</option>
                 <option>10</option>
@@ -58,16 +59,20 @@
                   <a class="btn btn-primary btn-lg" href="#" role="button" id="search">Search</a>
                   <a class="btn btn-primary btn-lg" href="#" role="button" id="clear">Clear</a>
 
-
+                
+                          
         
-      </form></div>
+      </form></div></div></div>
+<br><br>
+      <div class="container">
+      <div class="card">
+            <h5 class="card-header">Search Parameters</h5>
+            <div class="card-body">
+      <div id="top-articles"></div></div>
+ </div></div>
+
+ <footer></footer>
 
 
-      <div id="top-articles"></div>
-
-
-      
-
- </div>
 </body>
 </html>
